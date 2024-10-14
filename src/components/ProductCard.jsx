@@ -15,7 +15,7 @@ const ProductCard = ({product}) => {
       <div className="flex gap-5 justify-between px-3 absolute bottom-3 w-full">
         <Link to={"/details/"+product.id} className='w-full border-2 rounded-md hover:text-white bg-transparent border-black hover:bg-black duration-200'>
           <button>View more</button></Link>
-        <button className='w-full border-2 rounded-md hover:text-white bg-neutral-900 border-black hover:bg-black duration-200'>Add to cart</button>
+        <button className='w-full border-2 text-white rounded-md hover:text-white bg-neutral-900 border-black hover:bg-black duration-200'>Add to cart</button>
       </div>
     </div>
   )
